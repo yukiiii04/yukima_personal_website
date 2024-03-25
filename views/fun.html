@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../static/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the personal website of Yuki, for 67250.">
+    <meta name="keywords" content="">
+    <meta name="author" content="Naama Ilany Tzur">
+    <title>Yuki CMU</title>
+    <script defer src="../static/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- This is for jquery -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload="addYear()">
+    <header>
+        <h1 id="webname">Yuki Ma</h1>
+        <nav id="myTopnav" class="topnav">
+            <a href="javascript:void(0);" class="icon">
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+            </a>
+            <a href="index.html">Home</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact Me</a>
+            <a href="fun.html" class="active">For Fun</a>
+        </nav>
+    </header>
+
+    <div class="main">
+        <div id="item1">
+        <h2>Things I do for fun</h2>
+ <!-- <button id="SeeMoreBTN" onclick="showList()">Click to see...</button> -->
+        <ul id="FavList">
+            <li>Drawing and getting hands on</li>
+            <li>Learning languages</li>
+            <li>Listening to and playing music</li>
+            <li>Watching f1</li>
+            <li>Hiking</li>
+        </ul>
+        </div>
+        <div id="item2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_fvNuap9l-Y" title="cat eating then looking at the camera meme" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div id="item3">
+            <h3>My least favorite place (I'M JOKING)</h3>
+            <!--The div element for the map -->
+            <div id="map"></div>
+            <!-- prettier-ignore -->
+            <!-- <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+                ({key: "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg", v: "weekly"});</script> -->
+        </div>
+        <div id="item4">
+            <img src="../static/DSC_6696.JPG" alt="picture of Gates in the sunset" class="funIMG">
+            
+        </div>
+    </div>
+    <footer>
+        <p id="copyYear">Yuki Ma &copy</p>
+    </footer>
+
+</body>
+</html>
+
+<!-- <iframe width="1037" height="592" src="https://www.youtube.com/embed/_fvNuap9l-Y" title="cat eating then looking at the camera meme" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
